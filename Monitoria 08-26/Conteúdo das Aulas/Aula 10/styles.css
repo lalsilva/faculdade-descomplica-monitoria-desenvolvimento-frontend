@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* =========================================
+MÓDULO 10: AGRUPAMENTO E ESTRUTURA
+========================================= */
+fieldset {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  color: #007bff;
+  padding: 0 10px;
+}
+
+/* =========================================
+MÓDULO 10: ACESSIBILIDADE E INPUTS
+========================================= */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+input:hover {
+  background-color: #e9ecef;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Relembrando o border-box! */
+  background-color: #f8f9fa;
+}
+
+/* =========================================
+MÓDULO 10: BOTÕES E ESTADOS[cite: 7, 8]
+========================================= */
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
