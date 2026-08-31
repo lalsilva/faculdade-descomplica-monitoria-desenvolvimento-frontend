@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Mágica do Bootstrap</title>
+
+    <!-- Configuração Inicial: CSS do Bootstrap no Head -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Componente Pronto: Navbar copiada da documentação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Meu Sistema</a>
+      </div>
+    </nav>
+
+    <!-- Sistema de Grid: O container abraça todo o conteúdo[cite: 13, 14] -->
+    <div class="container mt-5">
+      <!-- DICA PARA A PROVA AVALIATIVA (MÓDULO 14) -->
+      <!-- O aluno precisa centralizar, dar fundo claro e arredondar o título -->
+      <!-- Demonstre isso em um parágrafo para eles deduzirem[cite: 17] -->
+      <p class="text-center bg-light rounded p-3 mb-5 border">
+        Este parágrafo usa as classes utilitárias que vocês precisam para a
+        atividade avaliativa!
+      </p>
+
+      <!-- Grid Responsivo: Linha (row) e Colunas (col)[cite: 13, 14] -->
+      <div class="row">
+        <!-- Em telas médias (md) ocupa 6 das 12 colunas. No celular (xs), ocupa 12 (empilha)[cite: 13, 14] -->
+        <div class="col-md-6 mb-3">
+          <div class="card p-3 shadow-sm">
+            <h3>Coluna 1</h3>
+            <p>No celular, eu fico no topo. No desktop, fico à esquerda.</p>
+            <!-- Estilização instantânea de botões[cite: 15, 16] -->
+            <button class="btn btn-primary">Botão Primário</button>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card p-3 shadow-sm">
+            <h3>Coluna 2</h3>
+            <p>
+              A responsividade acontece sem precisar escrever media queries no
+              CSS.
+            </p>
+            <!-- Botões com diferentes estilos semânticos[cite: 15, 16] -->
+            <button class="btn btn-success">Botão Sucesso</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Configuração Inicial: JS do Bootstrap no final do Body[cite: 13, 14] -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
