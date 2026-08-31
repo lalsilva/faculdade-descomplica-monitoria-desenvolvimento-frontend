@@ -1,0 +1,19 @@
+/* Mostre como a caixa "incha" e empurra as coisas */
+#caixa {
+  background-color: lightblue; /* Módulo 4 */
+  padding: 50px; /* Respiro interno */
+  border: 5px solid darkblue; /* A Parede */
+  margin-bottom: 30px; /* Afasta dos vizinhos */
+}
+
+.caixa {
+  background-color: lightgreen; /* Módulo 4 */
+  width: 100px;
+  padding: 20px; /* Respiro interno */
+  border: 5px dashed darkgreen; /* A Parede */
+  margin: 30px; /* Afasta dos vizinhos */
+}
+
+div {
+  background-color: lightgray; /* Módulo 4 */
+}
