@@ -1,0 +1,20 @@
+.container-flex {
+  display: flex;
+  justify-content: center; /* Centro horizontal */
+  align-items: center; /* Centro vertical */
+  height: 100vh; /* Ocupa a tela toda */
+  background-color: #f4f4f4;
+  /* Sem flexbox ainda */
+}
+.alvo {
+  width: 200px; /* Ocupa a tela toda */
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
+}
+.caixa {
+  width: 200px; /* Ocupa a tela toda */
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+}
