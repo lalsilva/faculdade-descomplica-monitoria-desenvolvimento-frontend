@@ -40,9 +40,7 @@ MÓDULO 8: LISTAS VIRANDO MENUS[cite: 3, 4]
 MÓDULO 9: TABELAS SEMÂNTICAS
 ========================================= */
 .tabela-produtos {
-  width: 100%;
-  margin-top: 30px;
-  background-color: white;
+
   /* A MÁGICA: Descomente isso ao vivo para mostrar as bordas se unindo[cite: 5, 6] */
   /* border-collapse: collapse; */
 }
