@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Estruturado - Módulos 8 e 9</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>1. O Poder das Listas (Menu)</h2>
+    <!-- Uma lista não ordenada (ul) sendo usada de forma prática[cite: 3, 4] -->
+    <ul class="menu-navegacao">
+      <li>Home</li>
+      <li>Produtos</li>
+      <li class="contact">Contato</li>
+    </ul>
+
+    <h2>2. Estrutura Semântica de Tabelas</h2>
+    <!-- Tabela dividida corretamente em Cabeçalho, Corpo e Rodapé[cite: 5, 6] -->
+    <table class="tabela-produtos" border="1">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Preço</th>
+          <th>Quantidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>Notebook</b></td>
+          <td>R$ 3.000,00</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td><strong>Mouse</strong></td>
+          <td>R$ 30,00</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total em Estoque</td>
+          <!-- Mesclando colunas[cite: 5, 6] -->
+          <td>55 itens</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

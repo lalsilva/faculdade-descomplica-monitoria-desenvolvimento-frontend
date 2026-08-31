@@ -1,0 +1,66 @@
+/* 1. FONTES: Importando uma fonte profissional do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* =========================================
+MÓDULO 8: LISTAS VIRANDO MENUS[cite: 3, 4]
+========================================= */
+.menu-navegacao {
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 15px;
+
+  /* Removendo os "bullet points" feios padrão do navegador */
+  list-style-type: none;
+
+  /* Usando Flexbox (da aula passada) para colocar um do lado do outro */
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.menu-navegacao li {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: #ff5722;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+/* =========================================
+MÓDULO 9: TABELAS SEMÂNTICAS
+========================================= */
+.tabela-produtos {
+  width: 100%;
+  margin-top: 30px;
+  background-color: white;
+  /* A MÁGICA: Descomente isso ao vivo para mostrar as bordas se unindo[cite: 5, 6] */
+  /* border-collapse: collapse; */
+}
+
+/* Estilizando as bordas e o espaçamento interno (padding)[cite: 5, 6] */
+.tabela-produtos th,
+.tabela-produtos td {
+  border: 2px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabela-produtos thead {
+  background-color: #333;
+  color: white;
+}
+
+.tabela-produtos tfoot {
+  background-color: #e2e2e2;
+  font-weight: bold;
+}
