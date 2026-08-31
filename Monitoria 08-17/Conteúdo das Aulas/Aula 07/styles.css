@@ -1,0 +1,17 @@
+.btn-comprar {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px; /* Arredonda cantos */
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra elegante - Módulo 7 */
+  transition:
+    background-color 1s ease,
+    transform 1s ease; /* Transição Suave - Módulo 5 */
+}
+
+.btn-comprar:hover {
+  background-color: #fc0; /* Cor mais escura - Módulo 7 */
+  transform: translateY(30px); /* Levanta o botão suavemente */
+}
