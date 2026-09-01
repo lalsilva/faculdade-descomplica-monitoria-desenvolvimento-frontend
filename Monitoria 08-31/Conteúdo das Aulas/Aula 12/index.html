@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microinterações - Efeitos CSS</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/background-color.css" />
   </head>
   <body>
     <!-- Demonstração de Rotação[cite: 12] -->
-    <div class="caixa-giratoria">Passe o mouse!</div>
+    <div class="caixa-giratoria bg efeito-suave">Passe o mouse!</div>
 
     <!-- Demonstração de Escala e Movimento[cite: 12] -->
-    <button class="btn-animado">Botão Flutuante</button>
+    <button class="btn-animado efeito-suave">Botão Flutuante</button>
+
+    <script>
+      const caixa = document.querySelector('.caixa-giratoria');
+      caixa.style.backgroundColor = 'yellow';
+    </script>
   </body>
 </html>

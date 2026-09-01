@@ -29,6 +29,10 @@ body {
   cursor: pointer;
 }
 
+.caixa-giratoria {
+  background-color: aquamarine;
+}
+
 /* Ao passar o mouse, rotaciona 360 graus[cite: 12] */
 .caixa-giratoria:hover {
   transform: rotate(360deg);
